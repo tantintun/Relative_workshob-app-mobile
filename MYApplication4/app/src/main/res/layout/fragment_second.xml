@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTitleRel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Diri Mahasiswa (RelativeLayout)"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvNamaRel"
+            android:text="Nama: Lisa Rahmawati Putri"
+            android:textSize="18sp"
+            android:layout_below="@id/tvTitleRel"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvNIMRel"
+            android:text="NIM: 1234567890"
+            android:textSize="18sp"
+            android:layout_below="@id/tvNamaRel"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvProdiRel"
+            android:text="Prodi: Informatika"
+            android:textSize="18sp"
+            android:layout_below="@id/tvNIMRel"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvJadwalRel"
+            android:text="Jadwal Mata Kuliah:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tvProdiRel"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvJadwalDetailRel"
+            android:text="Senin: Algoritma\nSelasa: Basis Data\nRabu: Jaringan Komputer"
+            android:textSize="16sp"
+            android:layout_below="@id/tvJadwalRel"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvInfoRel"
+            android:text="Informasi Mata Kuliah:"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tvJadwalDetailRel"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvInfoDetailRel"
+            android:text="Algoritma: 3 SKS\nBasis Data: 3 SKS\nJaringan Komputer: 2 SKS"
+            android:textSize="16sp"
+            android:layout_below="@id/tvInfoRel"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</ScrollView>
